@@ -1,0 +1,48 @@
+body {
+    color:black;
+    background:navajowhite;
+    margin: 10px;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 75px;
+}
+
+header {
+    border-bottom: solid 2px rgb(227, 98, 9, 1);
+    margin: 20px;
+    font-size: 25px;
+    color: black;
+}
+.chamado {
+    background-color: rgba(226, 111, 65, 0.907);
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.evangelho-texto { 
+    margin-right: 10%;
+}   
+div {font-size: 18px;}
+
+.Categoria-trailers {
+    display:flex;
+    overflow-x: auto;
+    gap: 12px;
+}
+.links {
+    background-color: black;
+    padding-left: 20px;
+    scroll-padding-right: 20px;
+}
+.Categoria-trailers img {
+    opacity: 0.3;
+    height: 250px;
+}
+.Categoria-trailers img:hover { 
+    opacity: 1.0; 
+    border: solid 3px rgb(0, 162, 255);
+}
+.links h2 {
+    color:navajowhite ;
+}
